@@ -1,0 +1,18 @@
+---
+layout: home
+---
+
+<header>
+  <a href="{{ site.base_url }}/projects">← projects</a>
+  <h1>{{ page.project_name }}</h1>
+  <p>{{ page.description }}</p>
+</header>
+
+<section>
+  <h1>Technologies used:</h1>
+  <ul>
+    {% for technology in page.technologies %}
+      <li>{{ technology.name }}</li>
+    {% endfor %}
+  </ul>
+<section>

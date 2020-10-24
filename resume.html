@@ -1,0 +1,24 @@
+---
+layout: home
+permalink: /resume/
+---
+
+<section>
+  <h1>Skills</h1>
+  <ul class="unstyled-list flex flex-wrap flex-row p-0">
+    {% for skill in site.data.resume.skills %}
+      <h1><li class="mr-sm bg-green p-sm">{{ skill.name }}</li></h1>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  {% for job in site.data.resume.jobs %}
+    <h1>{{ job.position}} at {{ job.company }}</h1>
+    <ul>
+      {% for item in job.description %}
+        <li>{{ item.li }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+<section>

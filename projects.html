@@ -1,0 +1,10 @@
+---
+layout: home
+permalink: /projects/
+---
+
+<ul>
+  {% for project in site.projects %}
+    <li><a href="{{ site.base_url }}/projects/{{ project.title | downcase }}">{{ project.project_name }}</a></li>
+  {% endfor %}
+</ul>

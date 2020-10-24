@@ -1,0 +1,14 @@
+<nav class="bg-green">
+  <h1>Saundra</h1>
+  <ul>
+    <li>
+      <a href="{{ site.base_url }}/" {% if page.url == '/' %}class="active"{% endif %}>about</a>
+    </li>
+    <li>
+      <a href="{{ site.base_url }}/resume/" {% if page.url == '/resume/' %}class="active"{% endif %}>resume</a>
+    </li>
+    <li>
+      <a href="{{ site.base_url }}/projects/" {% if page.url contains 'projects' %}class="active"{% endif %}>projects</a>
+    </li>
+  </ul>
+</nav>

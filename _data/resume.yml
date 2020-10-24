@@ -1,0 +1,36 @@
+jobs:
+  - company: Home Chef
+    position: Software Engineer II
+    description:
+      - li: Created a new React app for the MessageCenter, built out APIs in the Rails app to use in the React and React Native apps, built the visual components, and created a new table to assign messages to users. The app is rendered in one spot at the top of the page and uses portals to move components to other places in the DOM.
+      - li: Revamped the gift card flow by working on the re-design, adding addresses to carts, and ensuring that addresses are verified against Stripe.
+      - li: Worked on adding a new OmniAuth callback to create a new ID.me feature that allows hospital employees, first responders, and teachers to receive a sign-up voucher and recurring discount.
+      - li: Fixed a security bug in our Google OmniAuth to use a POST request from an interstitial page using a valid CSRF token instead of redirecting straight to Google.
+      - li: Optimized the CSS for our lightweight marketing pages by creating and loading a separate shared stylesheet and another stylesheet specific to that page. This improved performance by 60%.
+      - li: Setup numerous A/B experiments (e.g.,shipping and servingc osts, swapping funnel steps) and fixed various visual bugs (e.g., misaligned columns, wrong breakpoints, not-ADA friendly, etc.)
+  - company: GitHub
+    position: Associate Software Engineer
+    description:
+      - li: Made GitHub OFAC compliant in time for the acquisition deal closing with Microsoft by blocking sanctioned users from being able to upgrade to paid plans, designing flash notices to flagged users, and designing and implementing notices to internal staff tools for debugging and support purposes.
+      - li: Worked on transitioning the subscription system payment gateway from Braintree to Zuora by writing data transitions, creating new automated jobs with ActiveJob, adding new audit logs, and fixing bugs.
+      - li: Brought accounts back in good standing during week long on-call rotations addressing 30+ support tickets in a timely manner, fixing accounts when needed (e.g., updating billing dates, changing plan type, resetting billing attempts, etc.) in the production console, and opening issues for new bugs.
+      - li: Worked closely with some of our partner organizations such as Code2040 and Teens Exploring Technology to drive diversity initiatives by mentoring fellows and students, sitting on panels, and reviewing resumes.
+  - company: GitHub
+    position: Application Engineer Intern
+    description:
+      - li: Designed and created a new database table, created a new model, added Google Analytics to track usage, wrote tests, and added option in toolbar for the embedded code snippets feature. The feature was used by 20,000+ unique users within the first 2 weeks of shipping the feature.
+      - li: Lead a team of six developers and designers in a full redesign of GitHub's public-facing internship website with a focus on simplicity that I had designed and created a Jekyll site by myself the previous year as a side project. Core technologies used were GitHub Pages, Jekyll, and Primer.
+      - li: Coordinated meetings with the Talent Acquisition, Public Relations, and Design teams to receive feedback to ensure the intern site aligned with GitHub's needs and voice.
+skills:
+  - name: ruby
+  - name: rails
+  - name: git
+  - name: html5
+  - name: css
+  - name: react
+  - name: javascript
+  - name: active record
+  - name: jekyll
+  - name: rspec
+  - name: sql
+  - name: accessibility
